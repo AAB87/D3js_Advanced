@@ -1,0 +1,78 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.exerciseTitle {
+  color:black;
+  font-size: 25px;
+  font-family: helvetica;
+  border:2px solid DodgerBlue;
+  background-color:rgb(231, 241, 241); 
+}
+
+.exerciseStatement {
+  font-family:helvetica; 
+  font-size:100%;
+  text-align:left;
+}
+
+ul {
+  margin-top: 4px;
+}
+
+.additionalFeatures {
+  color: darkgreen;
+}
+
+.gitIcon {
+  width: 25px;
+  height: 25px;
+}
+
+#parentDiv {
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+#chart {
+  float:left;
+  margin: 0 auto;
+  position: relative;
+  padding-bottom: 100%;
+  overflow: hidden;
+  height: 750px; 
+  width: 60%;
+}
+
+.svg-responsive {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#information {
+  border: 10px transparent;
+  float: left;
+  background-color:rgb(231, 241, 241); 
+  padding: 10px;
+  font: 16px helvetica;
+  height: 750px; 
+  max-height: 750px;
+  width: 35%;
+}
+
+.toolTip {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: absolute;
+  display: none;
+  width: auto;
+  height: auto;
+  background: none repeat scroll 0 0 white;
+  border: 0 none;
+  border-radius: 8px 8px 8px 8px;
+  box-shadow: -3px 3px 15px #888888;
+  color: black;
+  font: 12px helvetica;
+  padding: 5px;
+  text-align: justify;
+}
